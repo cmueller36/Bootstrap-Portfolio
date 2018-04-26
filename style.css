@@ -34,13 +34,22 @@ footer {
 }
 
 nav{
+    position:relative;
     border-bottom: 5px solid gray;
 }
 
 .navbar-brand{
     color: white;
     background-color: #4aaaa5;
-    width: 100%;
+    width: 20%;
+}
+
+@media (max-width:768px){
+    
+    .navbar-brand{
+        width: 100%;
+    }
+ 
 }
 
 h1{
@@ -61,3 +70,4 @@ button {
     margin:10px;
     margin-top: 20px;
 }
+
