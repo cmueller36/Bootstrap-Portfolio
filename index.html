@@ -9,7 +9,7 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
@@ -17,7 +17,7 @@
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!--Logo-->
-        <a class="navbar-brand" href="index.html">Chris Mueller</a>
+        <a class="navbar-brand text-white" href="index.html">Chris Mueller</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,13 @@
                     <a class="nav-link" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="index.html">|</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">|</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="contact.html">Contact</a>
@@ -42,15 +48,31 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="jumbotron">
-                    <h1 class="display-4">Hello, world!</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
-                        content or information.</p>
-                    <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </p>
+                <br>
+                <h1>About Me</h1>
+                <hr>
+                <!--the 200x200 image-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <img id="profileimg" style="float: left" src="images/profileimage.jpg" alt="Profile Logo" />
+                        <p>Hello, my name is Chris Mueller and this is my Portfolio website. I have created this website using
+                            HTML and CSS style sheet and no bootstrap was used. My primary focus is in Artificial Intelligence
+                            and Data Science. The Microsoft platform is where I build thing like BOTs using the BOT Framework
+                            and creating machine learning models using the Azure Machine Learning service.
+                        </p>
+                        <br>
+                        <p>
+                            A little about me personally, I recently moved to Raleigh for work from Texas. I am a huge golf fan and you can find me on
+                            Sunday afternoons watching the final rounds at my new favorite bar "The Station" off of Person
+                            Street. When I am not coding or working you can also find me outside biking, hiking, running,
+                            or anything active.
+                        </p>
+                        <br>
+                        <p>
+                            I hope you enjoy my page and please contact me if you have any comments or want to talk AI or BI.
+                        </p>
+                    </div>
                 </div>
 
             </div>
@@ -59,13 +81,15 @@
 
 
     <!--footer-->
-    <footer class="fixed-bottom">
-        <div id="footer1">
-            <div class="card-body">
-                @Copyright 2018 Chris Mueller
-            </div>
+    <footer class="footer-copyright font-small">
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+            © 2018 Copyright Chris Mueller
         </div>
+        <!--/.copyright-->
     </footer>
+    <!--/.footer-->
+
 
     <!--Bootstrap JavaScript-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

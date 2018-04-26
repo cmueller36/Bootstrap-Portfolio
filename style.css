@@ -1,7 +1,46 @@
-#footer1{
-    color: white;
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-research-analytics-icons-perfect-background-presentation-web-banner-promotion-material-73029400.jpg");
+    margin: 0 0 100px;
+}
+
+.container{
+    background-color: white;
+    margin-top: 5%;
+}
+
+#profileimg{
+    border-right:20px white solid;
+    border-bottom: 20px white solid;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
     text-align: center;
-    border-top: green;
-    border-width: 20px;
-    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    border-bottom: 5px solid gray;
+}
+
+.navbar-brand{
+    color: white;
+    background-color: #4aaaa5;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
 }
