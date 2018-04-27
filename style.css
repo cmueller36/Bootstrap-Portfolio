@@ -44,6 +44,14 @@ nav{
     width: 20%;
     margin-left: 15%;
     height: 100px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 45px;
+}
+
+.collapse{
+    margin-right: 15%;
 }
 
 @media (max-width:768px){
@@ -52,6 +60,14 @@ nav{
         width: 100%;
         margin-left: 0%;
         height: 100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 45px;
+    }
+
+    .collapse{
+        margin-right: 0%;
     }
  
 }
@@ -75,3 +91,35 @@ button {
     margin-top: 20px;
 }
 
+.image1{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3uo1d-XDQtNSAeetWxgsRAqCRcEDTpCwh-mbHS6Mx_jx92_g");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.image2{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0H3DCvPD1_3stcH6gt_BPRwlUf3roD_5j8vVCvAD-VWVeSAjsFg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.image3{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    background-image: url("https://images7.alphacoders.com/520/thumb-1920-520012.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
